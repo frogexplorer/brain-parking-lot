@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Parking Lot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+        <div class="logo">🧠</div>
+
+        <h1>Brain Parking Lot</h1>
+
+        <p class="subtitle">
+            Get it out of your head.<br>
+            You don't have to deal with it right now.
+        </p>
+
+        <button id="parkButton" class="park-button">
+            + Park a thought
+        </button>
+
+        <section id="thoughtSection" class="hidden">
+            <h2>What's on your mind?</h2>
+
+            <textarea
+                id="thoughtInput"
+                placeholder="Type anything... no need to organize it."
+            ></textarea>
+
+            <button id="saveButton" class="save-button">
+                Park it
+            </button>
+        </section>
+
+       <section class="thoughts-section">
+    <h2>Parked</h2>
+
+    <div id="thoughtsList"></div>
+</section>
+
+<section class="handled-section">
+    <h2>Handled</h2>
+
+    <button id="clearHandledButton" class="clear-handled-button">
+        Clear handled
+    </button>
+
+    <div id="handledList"></div>
+</section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
