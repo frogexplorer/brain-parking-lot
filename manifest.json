@@ -1,0 +1,15 @@
+{
+  "name": "Brain Parking Lot",
+  "short_name": "Brain Parking Lot",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#292524",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
